@@ -9,7 +9,7 @@ body {
 }
 
 .banner {
-    background-image: url('banner.jpg'); 
+    background-image: url('Polish_20240814_154043407.jpg'); 
     background-size: cover; 
     background-position: center; 
     height: 400px; 
@@ -20,6 +20,7 @@ body {
     padding: 20px; 
 }
 
+/* Title and subtitle styles */
 .title {
     font-size: 78px; 
     color: #D19FBB; 
@@ -36,6 +37,7 @@ body {
     font-weight: normal;
 }
 
+/* Navigation styles */
 .nav-links {
     list-style: none; 
     padding: 0; 
@@ -57,6 +59,7 @@ body {
     color: pink; 
 }
 
+/* Donation button styles */
 .donate-button {
     display: inline-block; 
     background-color: #F6D9E9; 
@@ -75,6 +78,7 @@ body {
     background-color: #D4B5C1; 
 }
 
+/* Divider line */
 .divider {
     width: 100%; 
     height: 2px; 
@@ -82,23 +86,15 @@ body {
     margin: 20px 0; 
 }
 
+/* Founders image */
 .founders-image {
     display: block; 
-    margin: 0 auto; 
+    margin: 20px auto; /* Add margin for spacing */
     width: 80%; 
     max-width: 600px; 
 }
 
+/* Gray box styles */
 .gray-box {
     background-color: #D9D9D9; 
-    display: flex; 
-    justify-content: space-between; 
-    padding: 20px; 
-    margin: 20px 0; 
-}
-
-.column {
-    flex: 1; 
-    padding: 10px; 
-    margin: 0 10px; 
-}
+    display: 
