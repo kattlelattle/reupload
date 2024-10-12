@@ -84,7 +84,7 @@ body {
     width: 30%; 
     height: 3px; 
     background-color: black; 
-    margin: 20px 0; 
+    margin: 20px auto; 
 }
 
 /* Founders image */
@@ -105,8 +105,11 @@ body {
 
 .founders-title {
     color: black;         
-    font-size: 44px;     
+    font-size: 64px;     
     text-align: center; 
+    font-weight: normal;
     margin: 20px 0;     
 }
+
+
 
