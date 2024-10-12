@@ -98,3 +98,9 @@ body {
     padding: 10px; /* Padding within columns */
     margin: 0 10px; /* Margin between columns */
 }
+
+.white-banner {
+    background-color: white; /* White background for the banner */
+    padding: 10px 20px; /* Padding for spacing */
+}
+
