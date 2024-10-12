@@ -3,32 +3,6 @@ body {
     font-family: 'Palatino Linotype', serif;
 }
 
-.nav-bar {
-    background-color: white; /* White background for the navbar */
-    text-align: center; /* Center align the links */
-    padding: 10px 0; /* Padding for the navbar */
-}
-
-.nav-links {
-    list-style: none; /* Remove bullet points from list */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-}
-
-.nav-links li {
-    display: inline; /* Inline display for horizontal layout */
-    margin: 0 15px; /* Spacing between links */
-}
-
-.nav-links a {
-    color: #573146; /* Dark pink font color */
-    text-decoration: none; /* No underline */
-}
-
-.nav-links a:hover {
-    color: pink; /* Change to pink on hover */
-}
-
 .banner {
     background-image: url('Polish_20240814_154043407.jpg'); 
     background-size: cover; 
@@ -46,13 +20,36 @@ body {
     color: #D19FBB; 
     margin: 0; 
     padding-left: 25px; 
+    font-weight: normal; /* Make the title not bold */
 }
 
 .subtitle {
     font-size: 18px; 
     color: #573146; 
     margin-top: 10px; 
-    padding-left: 30px; 
+    padding-left: 25px; 
+    font-weight: normal; /* Make the subtitle not bold */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-links li {
+    display: inline; /* Display links in a single line */
+    margin-right: 15px; /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline */
+    color: #573146; /* Dark pink color */
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+.nav-links a:hover {
+    color: pink; /* Change color on hover */
 }
 
 .donate-button {
@@ -65,8 +62,7 @@ body {
     border: none; 
     border-radius: 5px; 
     margin-top: 15px; 
-    margin-left: auto; 
-    margin-right: auto; /* Center the button */
+    margin-left: 25px; /* Adjust to move the button more to the left */
     transition: background-color 0.3s; 
 }
 
