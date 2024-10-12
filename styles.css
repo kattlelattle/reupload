@@ -81,7 +81,7 @@ body {
 
 /* Divider line */
 .divider {
-    width: 5%; 
+    width: 30%; /* Adjusted width for centering */
     height: 3px; 
     background-color: black; 
     margin: auto; 
@@ -98,10 +98,26 @@ body {
 .gray-box {
     background-color: #D9D9D9; 
     display: flex; 
-    justify-content: space-between; 
+    justify-content: center; /* Center the boxes */
     padding: 20px; 
-    margin: 20px 0; 
-    max-width: 70%;
+    margin: 20px auto; /* Center the entire gray box */
+    max-width: 80%; /* Limit the width of the gray box */
+}
+
+/* Column styles */
+.column {
+    margin: 0 20px; /* Add space between the columns */
+    flex: 1; /* Allow columns to take equal space */
+    max-width: 45%; /* Limit the width of each column */
+}
+
+/* Founder title above each name */
+.founder-position {
+    color: black;         
+    font-size: 16px; /* Smaller font size for position */
+    text-align: left; 
+    font-weight: normal; /* Not bold */
+    margin-bottom: 5px; /* Space between title and name */
 }
 
 .founders-title {
@@ -111,6 +127,3 @@ body {
     font-weight: normal;
     margin: 20px 0;     
 }
-
-
-
