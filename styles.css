@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Palatino Linotype', serif;
-    background-colour: white;
+    background-color: white;
 }
 
 .header {
@@ -95,7 +95,11 @@ body {
     max-width: 600px; 
 }
 
-/* Gray box styles */
 .gray-box {
     background-color: #D9D9D9; 
-    display: 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px; 
+    margin: 20px 0; 
+}
+
