@@ -81,7 +81,7 @@ body {
 
 /* Divider line */
 .divider {
-    width: 30%; /* Adjusted width for centering */
+    width: 5%; /* Adjusted width for centering */
     height: 3px; 
     background-color: black; 
     margin: auto; 
