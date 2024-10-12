@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Palatino Linotype', serif;
+}
+
+.banner {
+    background-image: url('Polish_20240814_154043407.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 400px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    padding: 20px; 
+}
+
+.title {
+    font-size: 78px; 
+    color: #D19FBB; 
+    margin: 0; 
+    padding-left: 25px; 
+}
+
+.subtitle {
+    font-size: 18px; 
+    color: #573146; 
+    margin-top: 10px; 
+    padding-left: 30px; 
+}
+
+.donate-button {
+    display: inline-block; 
+    background-color: #F6D9E9; 
+    color: #573146; 
+    font-size: 16px; 
+    padding: 15px 30px; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px; 
+    margin-top: 15px; 
+    margin-left: 40%; /* Adjust this value to center the button more */
+    transition: background-color 0.3s; 
+}
+
+.donate-button:hover {
+    background-color: #D4B5C1; 
+}
+
+nav {
+    background-color: #F6D9E9; 
+    padding: 10px 20px; 
+}
+
+.nav-links {
+    list-style-type: none; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.nav-links li {
+    margin: 0 15px; 
+}
+
+.nav-links a {
+    text-decoration: none; 
+    color: #573146; 
+    font-weight: bold; 
+}
+
+.nav-links a:hover {
+    color: #D19FBB; 
+}
