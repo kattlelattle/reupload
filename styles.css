@@ -101,6 +101,7 @@ body {
     justify-content: space-between; 
     padding: 20px; 
     margin: 20px 0; 
+    max-width: 70%;
 }
 
 .founders-title {
