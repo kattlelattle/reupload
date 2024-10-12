@@ -3,6 +3,32 @@ body {
     font-family: 'Palatino Linotype', serif;
 }
 
+.nav-bar {
+    background-color: white; /* White background for the navbar */
+    text-align: center; /* Center align the links */
+    padding: 10px 0; /* Padding for the navbar */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points from list */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.nav-links li {
+    display: inline; /* Inline display for horizontal layout */
+    margin: 0 15px; /* Spacing between links */
+}
+
+.nav-links a {
+    color: #573146; /* Dark pink font color */
+    text-decoration: none; /* No underline */
+}
+
+.nav-links a:hover {
+    color: pink; /* Change to pink on hover */
+}
+
 .banner {
     background-image: url('Polish_20240814_154043407.jpg'); 
     background-size: cover; 
@@ -13,36 +39,6 @@ body {
     justify-content: center; 
     align-items: flex-start; 
     padding: 20px; 
-}
-
-/* Navbar styles */
-.navbar {
-    width: 100%; /* Full width */
-    background-color: white; /* White background for the navbar */
-    padding: 10px 0; /* Padding for spacing */
-    border-bottom: 2px solid #D19FBB; /* Optional: bottom border color */
-}
-
-.nav-links {
-    list-style: none; /* Removes bullet points */
-    display: flex; /* Aligns items in a row */
-    justify-content: center; /* Center the links */
-    padding: 0; /* Removes padding */
-}
-
-.nav-links li {
-    margin: 0 20px; /* Space between each link */
-}
-
-.nav-links a {
-    text-decoration: none; /* Removes underline */
-    color: #573146; /* Dark pink color */
-    font-weight: bold; /* Makes text bold */
-    transition: color 0.3s; /* Smooth transition for hover effect */
-}
-
-.nav-links a:hover {
-    color: #D19FBB; /* Changes color on hover */
 }
 
 .title {
@@ -69,7 +65,8 @@ body {
     border: none; 
     border-radius: 5px; 
     margin-top: 15px; 
-    margin-left: calc(50% - 100px); /* Halfway between left and center */
+    margin-left: auto; 
+    margin-right: auto; /* Center the button */
     transition: background-color 0.3s; 
 }
 
