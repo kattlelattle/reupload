@@ -15,6 +15,36 @@ body {
     padding: 20px; 
 }
 
+/* Navbar styles */
+.navbar {
+    width: 100%; /* Full width */
+    background-color: white; /* White background for the navbar */
+    padding: 10px 0; /* Padding for spacing */
+    border-bottom: 2px solid #D19FBB; /* Optional: bottom border color */
+}
+
+.nav-links {
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Aligns items in a row */
+    justify-content: center; /* Center the links */
+    padding: 0; /* Removes padding */
+}
+
+.nav-links li {
+    margin: 0 20px; /* Space between each link */
+}
+
+.nav-links a {
+    text-decoration: none; /* Removes underline */
+    color: #573146; /* Dark pink color */
+    font-weight: bold; /* Makes text bold */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-links a:hover {
+    color: #D19FBB; /* Changes color on hover */
+}
+
 .title {
     font-size: 78px; 
     color: #D19FBB; 
@@ -39,37 +69,10 @@ body {
     border: none; 
     border-radius: 5px; 
     margin-top: 15px; 
-    margin-left: 40%; /* Adjust this value to center the button more */
+    margin-left: calc(50% - 100px); /* Halfway between left and center */
     transition: background-color 0.3s; 
 }
 
 .donate-button:hover {
     background-color: #D4B5C1; 
-}
-
-nav {
-    background-color: #F6D9E9; 
-    padding: 10px 20px; 
-}
-
-.nav-links {
-    list-style-type: none; 
-    display: flex; 
-    justify-content: center; 
-    margin: 0; 
-    padding: 0; 
-}
-
-.nav-links li {
-    margin: 0 15px; 
-}
-
-.nav-links a {
-    text-decoration: none; 
-    color: #573146; 
-    font-weight: bold; 
-}
-
-.nav-links a:hover {
-    color: #D19FBB; 
 }
