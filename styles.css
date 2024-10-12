@@ -127,3 +127,34 @@ body {
     font-weight: normal;
     margin: 20px 0;     
 }
+
+.events-title {
+    color: black;
+    font-size: 64px;
+    text-align: center;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.full-width-photo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.events-content {
+    display: flex;
+    max-width: 1200px; /* Adjust max width as needed */
+    margin: 0 auto; /* Center the content */
+}
+
+.left-column, .right-column {
+    flex: 1; /* Equal width for both columns */
+    padding: 20px; /* Space inside columns */
+}
+
+.column-photo {
+    width: 100%; /* Make sure the photo takes the full width of the column */
+    height: auto; /* Maintain aspect ratio */
+}
+
