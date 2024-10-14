@@ -162,15 +162,15 @@ body {
 }
 
 .mission-title {
-    font-size: 48px; /* Title size */
+    font-size: 58px; /* Title size */
     margin: 0; /* Remove margin */
 }
 
 .mission-divider {
-    width: 100%; /* Full width for the horizontal line */
+    width: 5%; /* Full width for the horizontal line */
     height: 3px; /* Thickness of the line */
     background-color: white; /* Line color */
-    margin: 10px 0; /* Space around the line */
+    margin: 10px auto; /* Space around the line */
 }
 
 .mission-right {
