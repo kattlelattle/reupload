@@ -150,3 +150,71 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
+/* Mission section styles */
+.mission-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 50px 0;
+    background-color: #F8F5F3; /* Light background color for the entire section */
+}
+
+.mission-left {
+    flex: 1;
+    background-color: #D19FBB; /* Pink background */
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-left h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.mission-divider {
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.mission-right {
+    flex: 2;
+    padding: 50px;
+    background-color: white;
+    color: #573146;
+    line-height: 1.6;
+}
+
+.mission-right p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .mission-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .mission-left, .mission-right {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .mission-left h2 {
+        font-size: 36px;
+    }
+
+    .mission-right p {
+        font-size: 16px;
+    }
+}
+
+
