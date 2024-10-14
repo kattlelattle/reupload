@@ -150,71 +150,39 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
-/* Mission section styles */
 .mission-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    margin: 50px 0;
-    background-color: #F8F5F3; /* Light background color for the entire section */
+    display: flex; /* Use flexbox to create a two-column layout */
 }
 
 .mission-left {
-    flex: 1;
-    background-color: #D19FBB; /* Pink background */
-    color: white;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: #D19FBB; /* Dark pink background for the left side */
+    color: white; /* White text color */
+    padding: 40px 20px; /* Padding around the left section */
+    flex: 1; /* Take up half of the section */
 }
 
-.mission-left h2 {
-    font-size: 48px;
-    margin: 0;
+.mission-title {
+    font-size: 48px; /* Title size */
+    margin: 0; /* Remove margin */
 }
 
 .mission-divider {
-    width: 50px;
-    height: 2px;
-    background-color: white;
-    margin-top: 20px;
+    width: 100%; /* Full width for the horizontal line */
+    height: 3px; /* Thickness of the line */
+    background-color: white; /* Line color */
+    margin: 10px 0; /* Space around the line */
 }
 
 .mission-right {
-    flex: 2;
-    padding: 50px;
-    background-color: white;
-    color: #573146;
-    line-height: 1.6;
+    background-color: white; /* White background for the right side */
+    color: #000; /* Text color */
+    padding: 40px 20px; /* Padding around the right section */
+    flex: 1; /* Take up half of the section */
 }
 
 .mission-right p {
-    margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 18px; /* Font size for paragraphs */
+    max-width: 800px; /* Max width for text */
+    margin: 20px 0; /* Margin above and below paragraphs */
+    line-height: 1.5; /* Line height for readability */
 }
-
-/* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
-    .mission-section {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .mission-left, .mission-right {
-        padding: 20px;
-        text-align: center;
-    }
-
-    .mission-left h2 {
-        font-size: 36px;
-    }
-
-    .mission-right p {
-        font-size: 16px;
-    }
-}
-
-
