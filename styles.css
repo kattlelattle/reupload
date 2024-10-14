@@ -152,6 +152,7 @@ body {
 
 .mission-section {
     display: flex; /* Use flexbox to create a two-column layout */
+    height: 100vh; /* Full height of the viewport */
 }
 
 .mission-left {
@@ -159,19 +160,20 @@ body {
     color: white; /* White text color */
     padding: 40px 20px; /* Padding around the left section */
     flex: 1; /* Take up half of the section */
+    display: flex; /* Use flexbox for inner alignment */
+    flex-direction: column; /* Stack elements vertically */
     justify-content: center; /* Center children vertically */
-    align-items: center; /* Center children horizontally */
-    height: 100vh;
+    align-items: flex-end; /* Align children to the right */
 }
 
 .mission-title {
     font-size: 58px; /* Title size */
     margin: 0; /* Remove margin */
-
+    text-align: right; /* Right-align the title */
 }
 
 .mission-divider {
-    width: 5%; /* Full width for the horizontal line */
+    width: 5%; /* Adjust the width for the horizontal line */
     height: 3px; /* Thickness of the line */
     background-color: white; /* Line color */
     margin: 10px auto; /* Space around the line */
@@ -180,13 +182,9 @@ body {
 .mission-right {
     background-color: white; /* White background for the right side */
     color: #000; /* Text color */
-    padding: 40px 20px; /* Padding around the right section */
+    padding: 50px 30px; /* Padding around the right section */
     flex: 1; /* Take up half of the section */
-}
-
-.mission-right p {
-    font-size: 18px; /* Font size for paragraphs */
-    max-width: 800px; /* Max width for text */
-    margin: 20px 0; /* Margin above and below paragraphs */
-    line-height: 1.5; /* Line height for readability */
+    display: flex; /* Use flexbox for inner alignment */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center children vertically */
 }
