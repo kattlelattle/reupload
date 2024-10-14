@@ -159,11 +159,15 @@ body {
     color: white; /* White text color */
     padding: 40px 20px; /* Padding around the left section */
     flex: 1; /* Take up half of the section */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    height: 100vh;
 }
 
 .mission-title {
     font-size: 58px; /* Title size */
     margin: 0; /* Remove margin */
+
 }
 
 .mission-divider {
