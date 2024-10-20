@@ -5,8 +5,8 @@ body {
 }
 
 .header {
-    background-color: white; /* White background for the header */
-    padding: 35px; /* Space inside the header */
+    background-color: white; 
+    padding: 35px; 
 }
 
 .banner {
@@ -96,7 +96,7 @@ body {
 }
 
 .gray-box {
-    background-color: #D9D9D9; 
+    background-color: #D3D3D3; 
     display: flex; 
     justify-content: center; /* Center the boxes */
     padding: 20px; 
@@ -163,7 +163,7 @@ body {
     display: flex; /* Use flexbox for inner alignment */
     flex-direction: column; /* Stack elements vertically */
     justify-content: center; /* Center children vertically */
-    align-items: flex-end; /* Align children to the right */
+    align-items: flex-start; /* Align children to the left */
 }
 
 .mission-title {
