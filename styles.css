@@ -169,7 +169,7 @@ body {
 .mission-title {
     font-size: 58px; /* Title size */
     margin: 0; /* Remove margin */
-    text-align: right; /* Right-align the title */
+    text-align: center; 
 }
 
 .mission-divider {
