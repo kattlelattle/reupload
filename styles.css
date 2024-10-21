@@ -188,3 +188,24 @@ body {
     flex-direction: column; /* Stack elements vertically */
     justify-content: center; /* Center children vertically */
 }
+
+.site-footer {
+    background-color: #573146; /* Dark color for contrast */
+    color: white; /* White text for visibility */
+    text-align: center; /* Center the text */
+    padding: 10px 0; /* Padding around the text */
+    position: fixed; /* Keep the footer fixed at the bottom */
+    bottom: 0; /* Position it at the bottom of the page */
+    width: 100%; /* Full width of the page */
+    font-size: 16px; /* Font size */
+}
+
+.site-footer a {
+    color: white; /* White text for the email link */
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.site-footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
