@@ -170,6 +170,8 @@ body {
     font-size: 58px; /* Title size */
     margin: 0; /* Remove margin */
     text-align: center; 
+    width: fit-content; /* Set the width to fit the content */
+    margin-left: 30%; /* Move the title to 30% of the width */
 }
 
 .mission-divider {
