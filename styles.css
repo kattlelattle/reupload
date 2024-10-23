@@ -60,7 +60,6 @@ body {
     color: pink; 
 }
 
-/* Donation button styles */
 .donate-button {
     display: inline-block; 
     background-color: #F6D9E9; 
@@ -79,18 +78,16 @@ body {
     background-color: #D4B5C1; 
 }
 
-/* Divider line */
 .divider {
-    width: 5%; /* Adjusted width for centering */
+    width: 5%; 
     height: 3px; 
     background-color: black; 
     margin: auto; 
 }
 
-/* Founders image */
 .founders-image {
     display: block; 
-    margin: 20px auto; /* Add margin for spacing */
+    margin: 20px auto; 
     width: 80%; 
     max-width: 600px; 
 }
@@ -98,26 +95,24 @@ body {
 .gray-box {
     background-color: #D3D3D3; 
     display: flex; 
-    justify-content: center; /* Center the boxes */
+    justify-content: center; 
     padding: 20px; 
-    margin: 20px auto; /* Center the entire gray box */
-    max-width: 80%; /* Limit the width of the gray box */
+    margin: 20px auto; 
+    max-width: 80%; 
 }
 
-/* Column styles */
 .column {
-    margin: 0 20px; /* Add space between the columns */
-    flex: 1; /* Allow columns to take equal space */
-    max-width: 45%; /* Limit the width of each column */
+    margin: 0 20px; 
+    flex: 1; 
+    max-width: 45%; 
 }
 
-/* Founder title above each name */
 .founder-position {
     color: black;         
-    font-size: 16px; /* Smaller font size for position */
+    font-size: 16px; 
     text-align: left; 
-    font-weight: normal; /* Not bold */
-    margin-bottom: 5px; /* Space between title and name */
+    font-weight: normal; 
+    margin-bottom: 5px; 
 }
 
 .founders-title {
@@ -136,7 +131,7 @@ body {
 
 .events-content {
     display: flex;
-    max-width: 1200px; /* Adjust max width as needed */
+    max-width: 1200px; 
     margin: 0 auto; /* Center the content */
 }
 
@@ -192,22 +187,22 @@ body {
 }
 
 .site-footer {
-    background-color: #573146; /* Dark color for contrast */
-    color: white; /* White text for visibility */
-    text-align: center; /* Center the text */
-    padding: 10px 0; /* Padding around the text */
-    position: fixed; /* Keep the footer fixed at the bottom */
-    bottom: 0; /* Position it at the bottom of the page */
-    width: 100%; /* Full width of the page */
-    font-size: 16px; /* Font size */
+    background-color: #573146;
+    color: white; 
+    text-align: center;
+    padding: 10px 0; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    font-size: 16px; 
 }
 
 .site-footer a {
-    color: white; /* White text for the email link */
-    text-decoration: none; /* Remove underline from the link */
+    color: white; 
+    text-decoration: none; 
 }
 
 .site-footer a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
