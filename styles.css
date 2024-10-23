@@ -210,3 +210,10 @@ body {
     height: 80px; 
 }
 
+.full-width-photo {
+    width: 100%; /* Full width of the screen */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove any inline element space */
+    margin: 0; /* Remove any margin */
+}
+
