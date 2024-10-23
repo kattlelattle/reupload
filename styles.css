@@ -212,8 +212,10 @@ body {
 
 .full-width-photo {
     width: 100%; /* Full width of the screen */
-    height: auto; /* Maintain the aspect ratio */
+    height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any inline element space */
     margin: 0; /* Remove any margin */
+    object-fit: cover; /* Crop the image */
+    object-position: 50% 20%; /* Move the image position down 20% */
+    height: 80vh; /* Adjust the height of the image to your desired size */
 }
-
