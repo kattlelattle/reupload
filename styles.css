@@ -164,7 +164,7 @@ body {
 .mission-title {
     font-size: 58px; /* Title size */
     margin: 0; /* Remove margin */
-    text-align: center; 
+    text-align: left; 
     width: fit-content; /* Set the width to fit the content */
     margin-left: 30%; /* Move the title to 30% of the width */
 }
@@ -204,5 +204,9 @@ body {
 
 .site-footer a:hover {
     text-decoration: underline;
+}
+
+.about-container {
+    height: 200px; 
 }
 
