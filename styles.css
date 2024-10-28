@@ -149,7 +149,6 @@ body {
     display: flex; 
     height: 100vh;
 }
-
 .mission-left {
     background-color: #D19FBB;
     color: white; 
@@ -157,16 +156,15 @@ body {
     flex: 1; 
     display: flex; 
     flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center; /* Vertical centering */
+    align-items: center;     /* Horizontal centering */
+    text-align: center;      /* Center text alignment */
 }
 
 .mission-title {
     font-size: 58px;
-    margin: 0; 
-    text-align: left; 
-    width: fit-content;
-    margin-left: 30%; 
+    margin: 0; /* Remove additional margins */
+ 
 }
 
 .mission-divider {
