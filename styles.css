@@ -142,7 +142,7 @@ body {
 
 .column-photo {
     width: 100%; /* Make sure the photo takes the full width of the column */
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
 }
 
 .mission-section {
