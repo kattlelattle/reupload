@@ -21,7 +21,6 @@ body {
     padding: 20px; 
 }
 
-/* Title and subtitle styles */
 .title {
     font-size: 78px; 
     color: #D19FBB; 
@@ -38,7 +37,6 @@ body {
     font-weight: normal;
 }
 
-/* Navigation styles */
 .nav-links {
     list-style: none; 
     padding: 0; 
@@ -132,7 +130,7 @@ body {
 .events-content {
     display: flex;
     max-width: 1200px; 
-    margin: 0 auto; /* Center the content */
+    margin: 0 auto; 
 }
 
 .left-column, .right-column {
