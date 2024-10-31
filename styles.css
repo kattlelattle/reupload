@@ -125,7 +125,7 @@ body {
     width: 100%;
     height: auto; 
     display: block; 
-    margin: 0; 
+    margin: 10px 0; 
 }
 
 
@@ -170,7 +170,7 @@ body {
 .mission-title {
     font-size: 58px;
     margin: 0; 
-    margin-top: 50%; 
+    margin-top: 20%; 
     text-align: left; /* Keep text left-aligned */
 }
 
