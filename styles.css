@@ -177,8 +177,7 @@ body {
 .mission-divider {
     width: 5%; 
     height: 3px; 
-    background-color: white;
-    margin: 30%; 
+    background-color: white; 
 }
 
 .mission-right {
