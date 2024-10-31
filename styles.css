@@ -119,13 +119,15 @@ body {
     text-align: center; 
     font-weight: normal;
     margin: 20px 0;     
+
+}
+.photo {
+    width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0; 
 }
 
-.full-width-photo {
-    display: block;
-    width: 100%;
-    height: auto;
-}
 
 .events-content {
     display: flex;
@@ -206,9 +208,3 @@ body {
     height: 80px; 
 }
 
-.full-width-photo {
-    width: 100%;
-    height: auto; 
-    display: block; 
-    margin: 0; 
-}
