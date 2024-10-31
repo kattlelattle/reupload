@@ -165,13 +165,12 @@ body {
     flex-direction: column; 
     justify-content: center; /* Vertical centering */
     align-items: center;     /* Horizontal centering */
-    text-align: center;      /* Center text alignment */
 }
 
 .mission-title {
     font-size: 58px;
-    margin: 0; /* Remove additional margins */
- 
+    margin: 0; 
+    text-align: left; /* Text alignment */
 }
 
 .mission-divider {
