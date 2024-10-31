@@ -211,7 +211,11 @@ body {
     text-decoration: underline;
 }
 
-.about-container {
+.container {
     height: 80px; 
 }
 
+
+.container-2 {
+    height: 50px; 
+}
