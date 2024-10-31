@@ -135,20 +135,27 @@ body {
     margin: 0 auto; 
 }
 
-.left-column, .right-column {
-    flex: 1; /* Equal width for both columns */
-    padding: 20px; /* Space inside columns */
+.left-column {
+    flex: 1; 
+    padding: 20px;
 }
 
-.column-photo {
-    width: 100%; /* Make sure the photo takes the full width of the column */
-    height: auto; 
+.right-column {
+    flex: 1; 
+    padding: 40px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+ 
 }
 
 .mission-section {
     display: flex; 
     height: 100vh;
 }
+
 .mission-left {
     background-color: #D19FBB;
     color: white; 
