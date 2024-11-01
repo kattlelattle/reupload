@@ -163,15 +163,15 @@ body {
     flex: 1; 
     display: flex; 
     flex-direction: column; 
-    justify-content: center; /* Vertical centering */
-    align-items: center;     /* Horizontal centering */
+    justify-content: center; 
+    align-items: center;
 
 }
 .mission-title {
     font-size: 58px;
     margin: 0; 
-    margin-top: 20%; 
-    text-align: left; /* Keep text left-aligned */
+    margin-top: 15%; 
+    text-align: left; 
 }
 
 .mission-divider {
