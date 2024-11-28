@@ -100,7 +100,7 @@ body {
 }
 
 .column {
-    margin: 0 20px; 
+    margin: 0 30px; 
     flex: 1; 
     max-width: 45%; 
 }
